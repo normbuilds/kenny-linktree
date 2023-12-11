@@ -1,0 +1,92 @@
+#app {
+  background-color: black;
+  width: 100vw; /* Corrected to "100vw" for viewport width */
+  height: 100vh;
+}
+
+.header {
+  text-align: center;
+
+  padding: 0.3rem;
+  background-color: black;
+}
+title {
+  position: absolute;
+}
+.title span {
+  background: linear-gradient(
+    180deg,
+    rgba(246, 5, 5, 1) 0%,
+    rgba(255, 255, 255, 1) 63%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  font-family: "Nosifer", sans-serif;
+  font-size: 30px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bg-text {
+  position: absolute;
+  z-index: 0;
+}
+.bg-text span {
+  background: linear-gradient(
+    180deg,
+    rgba(246, 5, 5, 1) 0%,
+    rgba(255, 255, 255, 1) 63%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  font-family: "Cabin Sketch", sans-serif;
+  font-size: 200px;
+  letter-spacing: 10px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.profile {
+  z-index: 1;
+  margin: auto;
+  margin-top: 3.2rem;
+}
+p {
+  font-family: "Jolly Lodger", sans-serif;
+}
+
+.bio {
+  color: #ffff;
+  font-size: 2rem;
+  letter-spacing: 3px;
+  padding: 0.5rem;
+}
+.video-container {
+  margin-top: 2rem;
+  border: 5px solid #fa0707;
+  border-radius: 0.3rem;
+  max-width: 450px;
+  display: flex;
+  justify-content: center;
+  margin-inline: auto;
+}
+.link-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+  gap: 0.3rem;
+}
+.link-container a {
+  display: flex;
+  color: white;
+  flex-direction: row;
+  gap: 0.6rem;
+  width: 15ch;
+}
+
+.link-container p {
+  font-size: 25px;
+}
