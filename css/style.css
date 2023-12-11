@@ -1,7 +1,8 @@
 #app {
   background-color: black;
-  width: 100vw; /* Corrected to "100vw" for viewport width */
-  height: 100vh;
+  width: 100vw;
+  height: auto;
+  overflow-x: hidden;
 }
 
 .header {
