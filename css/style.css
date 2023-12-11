@@ -32,25 +32,9 @@ title {
   flex-direction: column;
   align-items: center;
 }
-.bg-text {
-  position: absolute;
-  z-index: 0;
-}
-.bg-text span {
-  background: linear-gradient(
-    180deg,
-    rgba(246, 5, 5, 1) 0%,
-    rgba(255, 255, 255, 1) 63%,
-    rgba(255, 255, 255, 1) 100%
-  );
-  font-family: "Cabin Sketch", sans-serif;
-  font-size: 200px;
-  letter-spacing: 10px;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
+
 .profile {
-  z-index: 1;
+  z-index: 0;
   margin: auto;
   margin-top: 3.2rem;
 }
